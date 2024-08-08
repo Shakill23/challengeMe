@@ -18,7 +18,7 @@ app.use(
 // Endpoint: send index.html
 app.get('/', (req, res) => {
     res.status(200).sendFile(path.resolve('./static/html/index.html'));
-});
+})
 
 // Endpoint: display all users
 app.get('/users', (req, res) => {
